@@ -1,5 +1,4 @@
 from sqlalchemy.orm import Session
-from app.models.user_model import UserModel
 from fastapi.responses import JSONResponse
 
 class UserService:
@@ -19,5 +18,6 @@ class UserService:
             "message": "Success get all data",
             "data": data
         }, 
+    
     
     
